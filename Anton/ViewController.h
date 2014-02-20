@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *Display;
+@property (weak, nonatomic) IBOutlet UILabel *Operator;
+@property (weak, nonatomic) IBOutlet UILabel *plusminus;
 
 @end
